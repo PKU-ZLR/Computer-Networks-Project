@@ -209,20 +209,3 @@ def color_print(text, text_class):
 
 if __name__ == "__main__":
     create_test_data()
-
-    # dataset = MyDataset("data/data_dict2.pth")
-    # text, truth = dataset.get_train_data()
-    # print(text)
-    # print(truth)
-    # dict3 = torch.load("data/data_dict3.pth")
-    # for k in dict3.keys():
-    #     text, text_class = dict3[k]
-    #     color_print(text, text_class)
-
-    # keys, data_dict = create_data()
-    # torch.save(data_dict, "data/data_dict4.pth")
-
-    # s = "START 0 TOTAL:1.00, START TOTAL: 1.00 END"
-    # rs = regex.search(r"(\sTOTAL.*)(1.00)(\s)", s)
-    # for i in range(len(rs)):
-    #     print(repr(rs[i]), rs.span(i))
